@@ -9,4 +9,3 @@ print(f"#   {eye}   {'#' * (length + 2)}   {eye}   #")
 print(f"#########{' ' * length}#########")
 
 print()
-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
