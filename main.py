@@ -1,8 +1,10 @@
 
-x = input('What kind of book is this?\n ')
-if x == ('adventure'):
-  print('I like adventure books!')
-print('Finished reading book.')
+x = input('Please enter the activity to be performed.\n ')
+if x == ('calculate'):
+  print('Performing calculations...')
+else:
+  print('Performing activity...')
+print('Activity completed!')
 
 '''
 x = int(input('Enter the first number: '))
