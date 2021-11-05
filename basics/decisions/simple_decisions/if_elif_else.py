@@ -8,4 +8,3 @@ elif x == ('left'):
 elif x == ('right'):
   print('I am painting in the right direction!\n ')
 print('Activity completed!')
-
