@@ -10,4 +10,4 @@ for n in l1:
     even +=1
   else:
     odd +=1
-print('There were {0} even and {1} odd numbers.'.format(even, odd)
+print('There were {0} even and {1} odd numbers.'.format(even, odd))
