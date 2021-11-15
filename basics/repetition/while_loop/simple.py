@@ -1,6 +1,7 @@
-x = int(input(' How many numbers should I sum up? '))
-print('Plea' %(x))
-i = 0
-while i <= x:
-  print('I removed %d cable(s).' %count)
-print('I removed in total %d cables.' %(removed))
+print("How many cables should I remove?")
+cables_to_remove = int(input())
+cables_removed = 0
+print()
+while (cables_removed < cables_to_remove):
+    print("Removed cable.")
+    cables_removed = cables_removed + 1
