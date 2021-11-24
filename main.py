@@ -1,9 +1,8 @@
-print('Program Started!\n')
-x = int(input('Please enter an ASCII code: '))
-x = abs(x)
-if (x >= 32 and x <= 126):
-  y = chr(x)
-  print('The ASCII code for {} is {}.'.format(x,y))
+x = str(input('What did I hear?(grrr)'))
+print(x)
+y = str(input('What did I see?(two red eyes)'))
+print(y)
+if x == ('grrr') and y == ('two red eyes'):
+  print('There is a scary creature. I should get out of here!')
 else:
-  print('You have entered a value witch is not in range.')
-print('Program Ended!\n')
+  print('I am a little scared but I will continue.')
