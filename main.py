@@ -1,8 +1,25 @@
-x = str(input('What did I hear?(grrr)'))
-print(x)
-y = str(input('What did I see?(two red eyes)'))
-print(y)
-if x == ('grrr') and y == ('two red eyes'):
-  print('There is a scary creature. I should get out of here!')
-else:
-  print('I am a little scared but I will continue.')
+import basics.output.simple_message as simple_message
+import basics.output.multiline_message as multiline_message
+def run_a():
+  print("Which program in 'Block A: Basics' do you wish to run?")
+  response = input()
+  if (response == simple_message):
+    simple_message.run()
+  elif (response == multiline_message):
+    multiline_message.run()
+def run():
+    is_running = True
+
+    while(is_running):
+        print("What would you like to do?")
+        print("[a] Run 'Block A: Basics' programs")
+        print("[q] Quit")
+        response = input()
+
+        if (response == "a"):
+            run_a()
+        elif (response == "q"):
+            break
+        else:
+            print("Invalid option! Please try again.")
+run()
